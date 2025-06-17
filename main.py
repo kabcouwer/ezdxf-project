@@ -3,9 +3,9 @@ import os
 from utils.dxf_writer import create_dxf_from_json
 
 def main():
-    file_name = "siteDetail0"
-    input_path = os.path.join("input", "example_a", f"{file_name}.json")
-    output_folder = os.path.join("output", "example_a")
+    file_name = "siteDetail1"
+    input_path = os.path.join("input", "example_b", f"{file_name}.json")
+    output_folder = os.path.join("output", "example_b")
     os.makedirs(output_folder, exist_ok=True)
     output_file = os.path.join(output_folder, f"{file_name}.dxf")
 
